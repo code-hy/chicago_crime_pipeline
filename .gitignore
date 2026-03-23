@@ -1,0 +1,26 @@
+# Secrets and credentials
+credentials/
+*.json
+*.key
+
+# Airflow logs
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Docker
+*.log
+
+# Environment
+.env
+.env.local
+
+# Terraform
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/.terraform/
+terraform/.terraform.lock.hcl
