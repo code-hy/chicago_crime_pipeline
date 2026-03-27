@@ -101,3 +101,19 @@ docker-compose down
 cd terraform
 terraform destroy -var="project_id=YOUR_PROJECT_ID"
 ```
+
+## Appendix
+
+### Dashboard Screenshots
+
+#### Airflow Pipeline DAG
+
+![Airflow DAG](images/airflow_chicago_crime.png)
+
+The screenshot above shows the Airflow DAG execution, including the download, upload to GCS, processing to BigQuery, and transformation to production table.
+
+#### Looker Studio Dashboard
+
+![Looker Dashboard](images/looker_chicago_crime.png)
+
+The screenshot above shows the Looker Studio dashboard visualizing Chicago crime data with various charts and filters.
